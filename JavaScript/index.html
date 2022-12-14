@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>
+    游戏说明：<br />
+    一、甲，乙两位玩家依次选择任意棋子，点击走棋按钮，选中的棋子即会消失。<br />
+    二、不能跨行选择棋子<br />
+    三、选择最后一个棋子的玩家即为输家<br />
+    四、默认为甲方先走棋<br />
+    <span id="currentrun">当前应该<i id="whichone">甲</i> 方走棋</span>
+  </h2>
+  <div id="content">
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+  </div>
+  <div>
+    <h3 id="tips"></h3>
+  </div>
+  <button id="btnrun" style="width:80px;height:30px;">走棋</button>
+  <button id="recover" style="width:80px;height:30px;">复原</button>
+  <script src="index.js"></script>
+</body>
+
+</html>
